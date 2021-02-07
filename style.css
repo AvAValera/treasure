@@ -30,3 +30,10 @@ body{
     left: 380px;
     opacity: 0.5;
 }
+.marker{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: none;
+}
