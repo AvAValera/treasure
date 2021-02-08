@@ -21,5 +21,10 @@ body{
   width: 20px;
   height: 20px;
   background-color: blue;
-  display: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
+

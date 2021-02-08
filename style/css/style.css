@@ -12,30 +12,40 @@
   position: absolute;
   width: 600px;
   height: 530px;
-  background-color: white;
   top: 80px;
   left: 380px;
-  opacity: 0.5;
+}
+
+.zone_marker {
+  position: absolute;
+  width: 600px;
+  height: 530px;
+  top: 80px;
+  left: 380px;
 }
 
 .control {
+  z-index: 2;
   position: absolute;
 }
+
 .control .btn_start {
-  z-index: 22;
   position: relative;
   width: 100px;
   height: 50px;
   background-color: chocolate;
   border-radius: 10px;
   box-shadow: 0 10px 0 chartreuse;
-  transition: 1s linear;
   top: 0;
+  transition: .1s linear;
 }
-.control .btn_start :hover {
-  box-shadow: 0 0 0 chartreuse;
+
+.control .btn_start:hover {
   top: 5px;
+  box-shadow: 0 5px 0 chartreuse;
+  cursor: pointer;
 }
+
 .control .btn_start p {
   text-align: center;
   font-size: 30px;
@@ -65,5 +75,9 @@ body {
   width: 20px;
   height: 20px;
   background-color: blue;
-  display: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
