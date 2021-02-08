@@ -1,0 +1,24 @@
+.control{
+  position: absolute;
+  .btn_start{
+    z-index: 22;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: chocolate;
+    border-radius: 10px;
+    box-shadow:0 10px 0 chartreuse;
+    transition: 1s linear;
+    top: 0;
+    & :hover{
+      box-shadow:0 0 0 chartreuse;
+      top: 5px;
+    }
+    p{
+      text-align: center;
+      font-size: 30px;
+      padding: 5px ;
+      text-shadow: 0 2px 0 black;
+    }
+  }
+}
