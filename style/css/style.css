@@ -14,9 +14,10 @@
   height: 530px;
   top: 80px;
   left: 380px;
-  transition: 0.3s linear;
-  border: 3px solid black;
-  opacity: 0;
+  transition: .3s linear;
+  border: 3px dashed black;
+  opacity: 0.6;
+  z-index: 2;
 }
 
 .zone_marker {
@@ -38,6 +39,7 @@
   z-index: 2;
   position: absolute;
 }
+
 .control .btn_start {
   position: relative;
   width: 100px;
@@ -46,18 +48,33 @@
   border-radius: 10px;
   box-shadow: 0 10px 0 chartreuse;
   top: 0;
-  transition: 0.1s linear;
+  transition: .1s linear;
 }
+
 .control .btn_start:hover {
   top: 5px;
   box-shadow: 0 5px 0 chartreuse;
   cursor: pointer;
 }
+
 .control .btn_start p {
   text-align: center;
   font-size: 30px;
   padding: 5px;
   text-shadow: 0 2px 0 black;
+}
+
+.message {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.message .show__message p {
+  color: red;
 }
 
 * {
@@ -76,5 +93,3 @@ body {
   width: 1400px;
   margin: 0 auto;
 }
-
-/*# sourceMappingURL=style.css.map */

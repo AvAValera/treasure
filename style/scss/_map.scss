@@ -13,8 +13,9 @@
   top: 80px;
   left: 380px;
   transition: .3s linear;
-  border: 3px solid black;
-  opacity: 0;
+  border: 3px dashed black;
+  opacity: 0.6;
+  z-index: 2;
 }
 .zone_marker{
   position: absolute;
