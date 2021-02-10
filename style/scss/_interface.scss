@@ -16,6 +16,7 @@
       cursor: pointer;
     }
     p{
+      color: white;
       text-align: center;
       font-size: 30px;
       padding: 5px ;
@@ -25,12 +26,12 @@
 }
 .message{
   position: absolute;
-  top: 100px;
-  left: 500px;
+  bottom: 5%;
+  left: 20%;
   z-index: 1;
-  font-size: 40px;
+  font-size: 5vmin;
   font-weight: bold;
-  .show__message p{
+  .show__message {
     color: red;
   }
 }
