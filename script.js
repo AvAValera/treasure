@@ -90,7 +90,7 @@ function distance(dist){
             message.textContent = 'МОЛОДЕЦ!'
         }
         else if(dist < 50 && dist > -50){
-            message.textContent = 'ГОРЯЧЁ!'
+            message.textContent = 'ГОРЯЧО!'
         }
         else if(dist < 100 && dist > -100){
             message.textContent = 'РЯДОМ!'
@@ -104,7 +104,4 @@ function distance(dist){
     }
 }
 
-function param(){
-    
-}
 
